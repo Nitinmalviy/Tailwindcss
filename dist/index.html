@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark:bg-slate-700 grid place-content-center h-screen">
+    <!-- <h1 class="text-white p-5 font-semibold ">Text</h1> -->
+
+    <!-- create div card using logo  -->
+    <div>
+        <div class="bg-white rounded-xl max-w-sm mx-auto p-6 shadow-lg items-center space-x-4 flex flex-row">
+            <div>
+                <!-- img -->
+                <img class="rounded-full h-12 w-12"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUYd/L///8AbfEAavENdfIAcPIAcvKmw/n0+P4AbvGUt/eQtPcAafEJdPLg6v3E1/uyyvlBiPNqnvVjmvXr8v7Z5fyfvvisx/nk7f2Aq/b4+/9ZlPTA1PrX5PzM3fu90vofevJ4pvYtgPN8qPZPj/RFivRblvWIsPcAYPA3g/MoruTRAAAK9ElEQVR4nO3dW3uquhYGYEgCiopa8NBqtWhtu/v//+AOqBUEJMnIR1zrWeNq3kz1bSAZOXt+PzF8Xe5nH/NzfMz2y9dhT9/sgT//dTb4SV9izhmLgltEjHEe/6Y/g9kU/AtwwuF+lRy5dIWxEF5TCBGH0sqPyWqGK1GMcLo+ZFzammU1qXTyLFljStO+cDFPBA9iNVyFyeJkvrD+eywLp6MXrlp0jUr+O1ra/Uk2hdNxxgNT3Z8y4NnYJtKacLg68oCou0bAjytrj6sl4Syll145ZEl+z+z8NBvCzcpjsUXeOWLmrTYWfh1duHhjVovvFrIgP1+dC6fJJITwzhHylNpK0oTTFOo7G79pRopwkXC0L4+Yp5Rn1Vy4eevFl0fIP83zVmPhIOrLVxjZqmfhPgPVn20hgmzfo3CT8H59hZGnRo+qiXDe6wN6i5jNexEOt6z/AjyHYCf9YtQWfjgqwHMYFKOu0MUbWA7BUqhwmrkswHOEnl7vUUs4mLgtwEtMtNpGHWHCXNsuofWkqguHR1tdeHqER/UhAGXhLrDfyTUPESlnOKrC+XO8gn8hJqrNhqJwNHFNqgUf2xQenqWOKQdL7AnT56ljyhFsbQlPzwmUxJMd4dezAmWr8WJD+OU+UWsPBWKn8KmBKsQu4dO+g9cIv2jCJ61Fy9FVoz4WHp4fKImP28WHwtEzNvT1YD+mwvnzpWrNwddmwt0/BSj7xA96Gu3CYc9jvpQQUXt/sV14fKb+YFeITF+Y9FSN5quGijVSMqJi2VQYty0xehBh68BGm3DQQzWaL6GZeN9vq/n7fr9cLnf7/ft8vfo5pC+CF6upNNattE7dtAin+FomYEEy2LXO1A+Xs/U4+WVcdYnAZKclzMC1TMiyUcsvuovFLlEjCtH812oWJtB0WwTsoMYrYqT4Y1pexUbhB0cCg2CktYpkrPrnbp7TaBIOI+AzGqqOIOkLPdbUKjYJt7hnVLCt9nIudWHcNKrRIJzjGoqYfej6dIQea0hQ68IN7hkNfk3W42kIPVafQa0LcfVopDv1py9sqE9rwj2sHn3cjbMj9HhtRWNNCGvrmW4daiT0ain4vXCASrijN0OgpjC4z0/vhLBqJjB7B/WFtcrmTvgGqmbErzFQVxgeHgkXoGpGNGYbGKHHqysZq0JUS2G0mMlUeNdiVIRTUBHGStNgtoQeryxHqQhTUBFy0tYCbWH1D1oWojr2gWFTbyqsFmJZCHoLRUTbVKAvjMtvYkm4QBXhiAQ0EFaq05IQ1RZy4r4QA2F8aBJuQN3C8rf1JfT4LbG5CVegjJRrDDpZE5bejJvQA2Wk7ePtQKGI68IZ6CGl1jNmQi96rwlT0EQMI++WNBLeBqWuwiEq5xZUoJnwlkddhah6hlyTqo95V+Pv7bgKj6ier1avYvg+Tl6OcVAJw9fnWsNdhKhehcc0ttbNv3gQhEJ/8rD5m3cV4Rg2PKPsW4d2p9XDn4ows/nZpRBdK5auMfyyvRNHeGUh7CFVrWheQ/uN1eUxPQtHqIe0NrbXUoKIdR/BuCR8QQ0DB2ozMb+IdEMcb0LUEJusaJQ2DawiyJefG/1COIetLFFqLDag7X7B+k+Im25SGoNC5VPnYcVCaKmNbQil/j0qnxLBVQhrK+RTqgB8xc3nLS/CNW6Bl4oQVwsEg4vwgFujpyJEjYDJFzG5CIELoFSEW9gfuEjcPFznNw8V4RH39XlVLoV7THtbhIoQNQQmI5oVQlRzlIeKENdWFR19D7tMz7Ewn8DwcA1uHo6F+eJoKUQuRHQszHMqz39Frnd2LZRZjefPgFWpc6Hsn3q4NUJ5OBeupPAHueLZtTD8lELUhEURroXxVgphYzR5uBZ6RynUPktVJ5wLIymErst3LuQbD9mzeAIhW3jQBv8JhFNv+e8WRnsP2Tt8BuHMm0H3GToXBh/ex79cOPdwY3l5/CfEC9cWhHcLCyoxURA++O95EIUDujBO14PWUJkgbf/feczdC+nLuh4Hrb3+BwiJOZeN9xAsJA6yyLqU3B6ChcTxaikk5zRg4SdtCELmNOS8FCz8orWWMi8l9y3AQuJKG9m3IPcPsUJqB132D8l9fKxwRywA2ccnj9NghdTGjG/oY21YodkS6FvkY22/Ty2kjlcfLYx5Y4XESf5izJs6b4EVEiuaYt6COvcEFVLbsmLuiTp/CBWSf1w+fzil/pmQQuo6kWIOmNogQoWfxEqimMenrsWACol592UtBnE9DVRITEcu62mofUygkJo0X9ZEUccJgEJq3p3vQqSvTUQKyXn3wsb6UqSQuB2r2PyYC2lVDVJIzJn/1gjT1nkjhcS8+2+dNy2rQQqpHfzrWn1aqwMUEvPu234L2osIFBLbsfi2Z4ZUKQOF1Fzktu+JtHcNKCTm3ecTTs77DyljNeF4M2wPBUf7/z2RGury/kPaHtKQt8f/FISTSdv/pqXdYXkP6RK2WV1BiJrHr+wD9jPMl7gUVvdyw/bjOxTe7cdHPaYOhXdnKqC2lbgT/p20Dz7bxJ2wdrYJaMO6O2HtfBr/G7Jk35mwfsYQ6JwoZ8Lo7zAH8FlfroQivLn+/gWpa1wJG89r2yDqGlfCxjP3yHMETeFIGJcuuSoJEWcbOBLy0oEj5fNLAUfQuhFWDqGtnEFrvxDdCCuHUVbOEbbf6jsRVq+5AJ8F7URYPU+0ep639TfRhTD+rnx8VWi9OnUh5NWTm+7O1bfdJjoQhncXPt4Jh5YPpXIg7LgbwXZ22r+wNkANvqOkd6GogcD3zPQuVLhnxu7+/L6FYf0WhrrQamXTt5Cr3Pdk9c6unoVsUP/4pnvXTvae036FcdN5sI1359l7TvsVNp7S2Hj/ob3ntFdh071ybXdYWsvA+xS23GbTcg+pne/sVShinXtI/aWl+0p6FLbdXN12H/DKzqvYnzBqWzDReqeznVexN2FDMtMltDOj2JfQ5F5uf2HjGr2ehIK9tn58u9DfW6htehK21TIdQn9O70j1I+QN6aiS0B+TK9RehI+vx3wo9BPqmEYfwiB5+PGPhf43dVcOXhg0XeSsLvRPtGYRLwy7btDoEvovJCJcGHdecNoppBHRwvi381j7biGJCBaGClfUKgj9k3l1gxUGKrfYqAj9rTERKuyqRTWEfmLa9COF0eN2UE/o/xgmcEAhV7zoW1HorydGvwMmFJNHuaiJ0N8bdaZQQsGUrujREvqLzKDVAAnDrL0/aC70/VS/vsEII51bsHWE/kq7T4wQionWLh0tob8Tmk8qQBjHyq+ggdDfaD6p9oVsq3mBsqYwn9PQmZmyLYx549yEVaG/OGkUo2Uh+9K/h15fKFt/pvw2WhWGD0ec2sJE6A9T1STOolDwb5W9frUwEvr+LFPrbtgTBl5tlYVaGArzqRuVR9WWMGTGO1WNhf7wwLuNdoQxT4we0CLMhb7/mvKulsOGMObfGpcK14Ii9P3ltsNIF8b8tOv+jAdBE0rj43KkCmO+pfnoQvmsHnj7CZwkoQj4gfJ8noMulHXOKI5aCpIgjKNwZF6/3MKGUMb7ljc2kMbCgJ/UrhLuDEtCma6uMhbWfquRUIQsG+knoC1hTShj9+Oxu1dSXyh53g+1dimHTaGM3fjIg1JR6glFHPDj2CbPty6UsVinAbsq1YUilP8rXauPMKmGfWEey0Hi8SiIFYVxEHEvGSwhvwUjzGMxG6WZ0skfWTp6t1ax1AInLEJlTEVz3EU3wMIniP8D40umr8rS4/sAAAAASUVORK5CYII="
+                    alt="">
+
+            </div>
+            <div>
+                <div>
+                    <h3 class="text-pretty font-bold text-sm">FaceBook</h3>
+                    <p class="slate-300  font-serif text-sm ">Nitn Mavliya</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
